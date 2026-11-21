@@ -1,15 +1,21 @@
 class Solution {
     public int findJudge(int n, int[][] trust) {
-        int in[]=new int [n+1];
-        int out[]=new int [n+1];
-        for(int i=0;i<trust.length;i++){
-            out[trust[i][0]]+=1;
-            in[trust[i][1]]+=1;
+        int[] tg=new int[n+1];//trustGiven=tg
+        int[] tr=new int[n+1];//trustReceived=tr
+        for(int i=0;i<trust.length;i++)
+        {
+            int a=trust[i][0];
+            int b=trust[i][1];
+            tg[a]++;
+            tr[b]++;
         }
-        for(int i=1;i<out.length;i++){
-            if(out[i]==0 && in[i]==n-1) return i;
+        for(int i=1;i<=n;i++)
+        {
+            if(tg[i] == 0 && tr[i] == n-1)
+            {
+                return i;
+            }
         }
         return -1;
-        
     }
 }
