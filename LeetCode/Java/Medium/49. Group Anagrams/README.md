@@ -17,7 +17,7 @@ Array, Hash Table, String, Sorting
 
 Given an array of strings  `strs` , group the anagrams together. You can return the answer in  **any order** .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 **Input:**  strs = ["eat","tea","tan","ate","nat","bat"]
 
