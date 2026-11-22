@@ -1,6 +1,6 @@
 # 📝 15. 3Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/3sum)
+🔗 [Problem Link](https://leetcode.com/problems/3sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Two Pointers, Sorting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 34 ms
+- **Memory:** 59.7 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given an integer array nums, return all the triplets  `[nums[i], nums[j], nums[k
 
 Notice that the solution set must not contain duplicate triplets.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [-1,0,1,2,-1,-4]
