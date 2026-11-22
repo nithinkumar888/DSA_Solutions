@@ -26,7 +26,7 @@ Given an array  `nums`  of  `n`  integers, return  *an array of all the  **uniqu
 
 You may return the answer in  **any order** .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [1,0,-1,0,-2,2], target = 0
